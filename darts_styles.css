@@ -1,0 +1,77 @@
+
+body, html {
+    height: 100%;
+    font-family: 'Walter Turncoat', cursive;
+    margin: 0;
+}
+
+div {
+	border: 1px solid blue;
+	/*height: 400px;*/
+}
+
+.header_board {
+	font-family: 'Homemade Apple', cursive;
+	color: white;
+	font-size: 3rem;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+
+.header_menu {
+	font-family: 'Homemade Apple', cursive;
+	color: black;
+	text-align: center;
+}
+
+#score_board {
+	background-image: url("board.jpg");
+	height: 90vh;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.list_item_number, .list_item_name {
+	color: white;
+	opacity: 0.8;
+	text-transform: uppercase;
+	list-style: none;
+	font-size: 2.5rem;
+}
+
+.list_item_number {
+	text-align: right;
+}
+
+.list_item_name {
+	text-align: left;
+}
+
+.basic_text {
+	font-family: 'Walter Turncoat', cursive;
+	color: black;
+	text-align: right;
+}
+
+#dart_background {
+	background-image: url("darts.jpg");
+	height: 90vh;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+}
+
+.arrow {
+
+}
+
+footer h6 {
+	font-family: 'Walter Turncoat', cursive;
+	color: black;
+	text-align: right;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
