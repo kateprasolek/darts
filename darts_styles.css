@@ -6,8 +6,13 @@ body, html {
 }
 
 div {
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	/*height: 400px;*/
+}
+
+p {
+	margin: unset;
+	padding: unset; 
 }
 
 .header_board {
@@ -17,12 +22,6 @@ div {
 	text-align: center;
 	padding-top: 5rem;
 	padding-bottom: 3rem;
-}
-
-.header_menu {
-	font-family: 'Homemade Apple', cursive;
-	color: black;
-	text-align: center;
 }
 
 #score_board {
@@ -61,11 +60,39 @@ div {
 	height: 90vh;
 	background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;  
+    background-size: 100% 100%;
+}
+
+.button_members, .button_gallery {
+	font-family: 'Homemade Apple', cursive;
+	color: black;
+	font-size: 2rem;
+	padding-top: 5.5rem;
+	padding-bottom: 5.5rem;
 }
 
 .arrow {
+	margin-top: 6rem;
+	margin-bottom: 2rem;
+}
 
+.address {
+	font-size: 1.25rem;
+}
+
+.month {
+	font-size: 6rem;
+	line-height: 1;
+	padding-top: 1rem;
+	text-shadow: 5px 5px 10px grey;
+
+}
+
+.day {
+	color: #ff1524;
+	font-size: 8rem;
+	line-height: 0.8;
+	text-shadow: 5px 5px 10px grey;
 }
 
 footer h6 {
