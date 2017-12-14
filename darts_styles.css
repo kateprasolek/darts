@@ -5,6 +5,11 @@ body, html {
     margin: 0;
 }
 
+a:hover, .dropdown-item:hover, h6:hover  {
+	color: #ff1524;
+	text-decoration: none;
+}
+
 div {
 	/*border: 1px solid blue;*/
 	/*height: 400px;*/
@@ -63,17 +68,34 @@ p {
     background-size: 100% 100%;
 }
 
-.button_members, .button_gallery {
+.button_menu {
 	font-family: 'Homemade Apple', cursive;
 	color: black;
 	font-size: 2rem;
 	padding-top: 5.5rem;
-	padding-bottom: 5.5rem;
+}
+
+.btn:focus {
+	box-shadow: none;
+	color: #ff1524;
+}
+
+.dropdown-menu {
+	border-left: 1px solid rgba(0,0,0,.15);
+	border-right: 1px solid rgba(0,0,0,.15);
+	border-top: none;
+	border-bottom: none;
+	border-radius: none;
+}
+
+.dropdown-item:active {
+	background-color: none;
 }
 
 .arrow {
-	margin-top: 6rem;
+	margin-top: 10rem;
 	margin-bottom: 2rem;
+	opacity: 0.8;
 }
 
 .address {
@@ -98,7 +120,33 @@ p {
 footer h6 {
 	font-family: 'Walter Turncoat', cursive;
 	color: black;
-	text-align: right;
 	padding-bottom: 1rem;
 	padding-top: 1rem;
 }
+
+/*.btn-block {
+	color: black;
+	margin: 0.5rem;
+	padding: 2rem;
+	font-size: 2rem;
+	border-radius: 12px;
+	box-shadow: 5px 5px 10px grey;
+	width: 50%;
+}*/
+
+.button_gallery {
+	/*background-color: #ffa500;*/
+    color: black;
+    font-size: 2rem;
+    display: block;
+    padding: 1.5rem;
+    box-shadow: 4px 4px 20px black;
+    border-radius: 12px;
+    margin-top: 3rem;
+
+}
+
+
+/*.top_button {
+	margin-top: 4rem;
+}*/
