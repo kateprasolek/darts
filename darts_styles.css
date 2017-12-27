@@ -124,16 +124,6 @@ footer h6 {
 	padding-top: 1rem;
 }
 
-/*.btn-block {
-	color: black;
-	margin: 0.5rem;
-	padding: 2rem;
-	font-size: 2rem;
-	border-radius: 12px;
-	box-shadow: 5px 5px 10px grey;
-	width: 50%;
-}*/
-
 .button_gallery {
 	/*background-color: #ffa500;*/
     color: black;
@@ -143,8 +133,45 @@ footer h6 {
     box-shadow: 4px 4px 20px black;
     border-radius: 12px;
     margin-top: 3rem;
+}
+
+.modal-header, .modal-footer, .list-group, .list-group-item {
+	border: none;
+}
+
+.modal-header p {
+	font-family: 'Homemade Apple', cursive;
+	color: black;
+	font-size: 2rem;
+}
+
+.modal-content {
+	padding: 2%;
+}
+
+.button_back {
+	font-family: 'Homemade Apple', cursive;
+	color: black;
+	border-radius: 25px;
+	cursor: pointer;
 
 }
+
+.button_add {
+	font-family: 'Homemade Apple', cursive;
+	color: black;
+	border-radius: 25px;
+	background-color: rgba(11, 148, 68, 0.8);
+	cursor: pointer;
+}
+
+.photo {
+	max-width: 50%;
+}
+
+
+
+
 
 
 /*.top_button {
