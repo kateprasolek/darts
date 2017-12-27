@@ -5,7 +5,7 @@ body, html {
     margin: 0;
 }
 
-a:hover, .dropdown-item:hover, h6:hover  {
+a:hover, .dropdown-item:hover, h6:hover, .button_back:hover, .button_add:hover  {
 	color: #ff1524;
 	text-decoration: none;
 }
