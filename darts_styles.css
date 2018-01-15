@@ -20,21 +20,164 @@ p {
 	padding: unset; 
 }
 
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
 .header_board {
 	font-family: 'Homemade Apple', cursive;
 	color: white;
-	font-size: 4rem;
+	font-size: 3rem;
 	text-align: center;
-	padding-top: 5rem;
-	padding-bottom: 3rem;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+	padding-left: 1.5rem;
 }
 
 #score_board {
 	background-image: url("board.jpg");
-	height: 90vh;
+	/*min-height: 90vh;*/
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
+}
+
+
+
+
+.list_item_number, .list_item_name {
+	color: white;
+	opacity: 0.8;
+	text-transform: uppercase;
+	list-style: none;
+	font-size: 2.5rem;
+}
+
+.list_item_number {
+	text-align: right;
+	opacity: 0;
+}
+
+.list_item_name {
+	text-align: left;
+	opacity: 0;
+}
+
+.basic_text {
+	font-family: 'Walter Turncoat', cursive;
+	color: black;
+	text-align: right;
+}
+
+#dart_background {
+	background-image: url("darts.jpg");
+	/*min-height: 90vh;*/
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.button_menu {
+	font-family: 'Homemade Apple', cursive;
+	color: black;
+	font-size: 1.5rem;
+	padding-top: 2rem;
+}
+
+.btn:focus {
+	box-shadow: none;
+	color: #ff1524;
+}
+
+.dropdown-menu {
+	border-left: 1px solid rgba(0,0,0,.15);
+	border-right: 1px solid rgba(0,0,0,.15);
+	border-top: none;
+	border-bottom: none;
+	border-radius: none;
+}
+
+.dropdown-item:active {
+	background-color: none;
+}
+
+.arrow {
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+	opacity: 0.8;
+}
+
+.address {
+	font-size: 1.25rem;
+	color: black;
+}
+
+.month {
+	font-size: 4rem;
+	line-height: 1;
+	padding-top: 1rem;
+	text-shadow: 5px 5px 10px grey;
+
+}
+
+.day {
+	color: #ff1524;
+	font-size: 6rem;
+	line-height: 0.8;
+	text-shadow: 5px 5px 10px grey;
+	margin-bottom: 2rem;
+}
+
+footer h6 {
+	font-family: 'Walter Turncoat', cursive;
+	color: black;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+.button_gallery {
+	/*background-color: #ffa500;*/
+    color: black;
+    font-size: 2rem;
+    display: block;
+    padding: 1.5rem;
+    box-shadow: 4px 4px 20px black;
+    border-radius: 12px;
+    margin-top: 3rem;
+}
+
+.modal-header, .modal-footer, .list-group, .list-group-item {
+	border: none;
+}
+
+.modal-header p {
+	font-family: 'Homemade Apple', cursive;
+	color: black;
+	font-size: 2rem;
+}
+
+.modal-content {
+	padding: 2%;
+}
+
+.button_back {
+	font-family: 'Homemade Apple', cursive;
+	color: black;
+	border-radius: 25px;
+	cursor: pointer;
+
+}
+
+.button_add {
+	font-family: 'Homemade Apple', cursive;
+	color: black;
+	border-radius: 25px;
+	background-color: rgba(11, 148, 68, 0.8);
+	cursor: pointer;
+}
+
+.photo {
+	max-width: 50%;
 }
 
 /*beginning of animation */
@@ -81,164 +224,25 @@ p {
 /*end of animations */
 
 
-.list_item_number, .list_item_name {
-	color: white;
-	opacity: 0.8;
-	text-transform: uppercase;
-	list-style: none;
-	font-size: 2.5vw;
-}
-
-.list_item_number {
-	text-align: right;
-	opacity: 0;
-}
-
-.list_item_name {
-	text-align: left;
-	opacity: 0;
-}
-
-.basic_text {
-	font-family: 'Walter Turncoat', cursive;
-	color: black;
-	text-align: right;
-}
-
-#dart_background {
-	background-image: url("darts.jpg");
-	height: 90vh;
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.button_menu {
-	font-family: 'Homemade Apple', cursive;
-	color: black;
-	font-size: 2vw;
-	padding-top: 5.5rem;
-}
-
-.btn:focus {
-	box-shadow: none;
-	color: #ff1524;
-}
-
-.dropdown-menu {
-	border-left: 1px solid rgba(0,0,0,.15);
-	border-right: 1px solid rgba(0,0,0,.15);
-	border-top: none;
-	border-bottom: none;
-	border-radius: none;
-}
-
-.dropdown-item:active {
-	background-color: none;
-}
-
-.arrow {
-	margin-top: 10rem;
-	margin-bottom: 2rem;
-	opacity: 0.8;
-}
-
-.address {
-	font-size: 1.25vw;
-	color: black;
-}
-
-.month {
-	font-size: 6vw;
-	line-height: 1;
-	padding-top: 1rem;
-	text-shadow: 5px 5px 10px grey;
-
-}
-
-.day {
-	color: #ff1524;
-	font-size: 8vw;
-	line-height: 0.8;
-	text-shadow: 5px 5px 10px grey;
-}
-
-footer h6 {
-	font-family: 'Walter Turncoat', cursive;
-	color: black;
-	padding-bottom: 1rem;
-	padding-top: 1rem;
-}
-
-.button_gallery {
-	/*background-color: #ffa500;*/
-    color: black;
-    font-size: 2vw;
-    display: block;
-    padding: 1.5rem;
-    box-shadow: 4px 4px 20px black;
-    border-radius: 12px;
-    margin-top: 3rem;
-}
-
-.modal-header, .modal-footer, .list-group, .list-group-item {
-	border: none;
-}
-
-.modal-header p {
-	font-family: 'Homemade Apple', cursive;
-	color: black;
-	font-size: 2vw;
-}
-
-.modal-content {
-	padding: 2%;
-}
-
-.button_back {
-	font-family: 'Homemade Apple', cursive;
-	color: black;
-	border-radius: 25px;
-	cursor: pointer;
-
-}
-
-.button_add {
-	font-family: 'Homemade Apple', cursive;
-	color: black;
-	border-radius: 25px;
-	background-color: rgba(11, 148, 68, 0.8);
-	cursor: pointer;
-}
-
-.photo {
-	max-width: 50%;
-}
-
-
-
-
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) { 
-.header_board {
-	font-family: 'Homemade Apple', cursive;
-	color: white;
-	font-size: 3rem;
-	text-align: center;
-	padding-top: 5rem;
-	padding-bottom: 3rem;
-}
+	.header_board {
+		font-family: 'Homemade Apple', cursive;
+		color: white;
+		font-size: 3rem;
+		text-align: center;
+		padding-top: 5rem;
+		padding-bottom: 3rem;
+	}
 
-#score_board {
-	background-image: url("board.jpg");
-	height: 90vh;
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;  
-}
+	#score_board {
+		background-image: url("board.jpg");
+		min-height: 90vh;
+		background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;  
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
