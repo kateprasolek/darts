@@ -23,7 +23,7 @@ p {
 .header_board {
 	font-family: 'Homemade Apple', cursive;
 	color: white;
-	font-size: 3rem;
+	font-size: 4rem;
 	text-align: center;
 	padding-top: 5rem;
 	padding-bottom: 3rem;
@@ -34,91 +34,50 @@ p {
 	height: 90vh;
 	background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-/*.score_board {
-	visibility: hidden;
-}*/
-
-/*.animated {
-	visibility: visible;
-}*/
-
-/*score board animation */
-/*@keyframes name_animation {
-    from {left:300px;}
-    to {left:0px;}
-}*/
-
-/*.list_item_name {
-    position: relative;
-    animation: name_animation 10s forwards;
-}*/
-
-.list_item_name, .list_item_number {
-    animation: fadein 2s forwards;
+    background-size: cover;  
 }
 
-@keyframes fadein {
-    from {opacity:0;}
-    to {opacity:1;}
-}
+/*beginning of animation */
+	.list_item_name, .list_item_number {
+	    animation: fadein 3s forwards;
+	}
 
-/*@keyframes number_animation {
-    from {right:300px;}
-    to {right: 0px;}
-}*/
+	@keyframes fadein {
+	    from {opacity:0;}
+	    to {opacity:1;}
+	}
 
-/*.list_item_number {
-    position: relative;
-    animation-name: number_animation;
-    animation-duration: 10s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}*/
+	.list_item_name:nth-child(8), .list_item_number:nth-child(8) {  
+	 	animation-delay: 0.5s;
+	}
 
-.list_item_name:nth-child(8), .list_item_number:nth-child(8) { 
-  animation-duration: 1.5s;
-  
-}
+	.list_item_name:nth-child(7), .list_item_number:nth-child(7) {  
+		animation-delay: 1s;
+	}
 
-.list_item_name:nth-child(7), .list_item_number:nth-child(7) { 
-  animation-duration: 1.5s;
-  animation-delay: 0.5s;
+	.list_item_name:nth-child(6), .list_item_number:nth-child(6) { 
+		animation-delay: 1.5s;
+	}
 
+	.list_item_name:nth-child(5), .list_item_number:nth-child(5) { 
+	  	animation-delay: 2s;
+	}
 
-}
+	.list_item_name:nth-child(4), .list_item_number:nth-child(4) { 
+	  	animation-delay: 2.5s;
+	}
 
-.list_item_name:nth-child(6), .list_item_number:nth-child(6) { 
-  animation-duration: 1.5s;
-  animation-delay: 1s;
-}
+	.list_item_name:nth-child(3), .list_item_number:nth-child(3) { 
+	  	animation-delay: 3s;
+	}
 
-.list_item_name:nth-child(5), .list_item_number:nth-child(5) { 
-  animation-duration: 1.5s;
-  animation-delay: 1.5s;
-}
+	.list_item_name:nth-child(2), .list_item_number:nth-child(2) { 
+	  	animation-delay: 3.5s;
+	}
 
-.list_item_name:nth-child(4), .list_item_number:nth-child(4) { 
-  animation-duration: 1.5s;
-  animation-delay: 2s;
-}
-
-.list_item_name:nth-child(3), .list_item_number:nth-child(3) { 
-  animation-duration: 1.5s;
-  animation-delay: 2.5s;
-}
-
-.list_item_name:nth-child(2), .list_item_number:nth-child(2) { 
-  animation-duration: 1.5s;
-  animation-delay: 3s;
-}
-
-.list_item_name:nth-child(1), .list_item_number:nth-child(1) { 
-  animation-duration: 1.5s;
-  animation-delay: 3.5s;
-}
+	.list_item_name:nth-child(1), .list_item_number:nth-child(1) { 
+	  animation-delay: 4s;
+	}
 /*end of animations */
 
 
@@ -127,7 +86,7 @@ p {
 	opacity: 0.8;
 	text-transform: uppercase;
 	list-style: none;
-	font-size: 2.5rem;
+	font-size: 2.5vw;
 }
 
 .list_item_number {
@@ -157,7 +116,7 @@ p {
 .button_menu {
 	font-family: 'Homemade Apple', cursive;
 	color: black;
-	font-size: 2rem;
+	font-size: 2vw;
 	padding-top: 5.5rem;
 }
 
@@ -185,11 +144,11 @@ p {
 }
 
 .address {
-	font-size: 1.25rem;
+	font-size: 1.25vw;
 }
 
 .month {
-	font-size: 6rem;
+	font-size: 6vw;
 	line-height: 1;
 	padding-top: 1rem;
 	text-shadow: 5px 5px 10px grey;
@@ -198,7 +157,7 @@ p {
 
 .day {
 	color: #ff1524;
-	font-size: 8rem;
+	font-size: 8vw;
 	line-height: 0.8;
 	text-shadow: 5px 5px 10px grey;
 }
@@ -213,7 +172,7 @@ footer h6 {
 .button_gallery {
 	/*background-color: #ffa500;*/
     color: black;
-    font-size: 2rem;
+    font-size: 2vw;
     display: block;
     padding: 1.5rem;
     box-shadow: 4px 4px 20px black;
@@ -228,7 +187,7 @@ footer h6 {
 .modal-header p {
 	font-family: 'Homemade Apple', cursive;
 	color: black;
-	font-size: 2rem;
+	font-size: 2vw;
 }
 
 .modal-content {
@@ -258,8 +217,36 @@ footer h6 {
 
 
 
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+.header_board {
+	font-family: 'Homemade Apple', cursive;
+	color: white;
+	font-size: 3rem;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+
+#score_board {
+	background-image: url("board.jpg");
+	height: 90vh;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
 
 
-/*.top_button {
-	margin-top: 4rem;
-}*/
+}
