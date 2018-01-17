@@ -20,6 +20,9 @@ p {
 	padding: unset; 
 }
 
+ul {
+	-webkit-padding-start: 0px;
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -29,9 +32,8 @@ p {
 	color: white;
 	font-size: 3rem;
 	text-align: center;
-	padding-top: 4rem;
+	padding-top: 3rem;
 	padding-bottom: 2rem;
-	padding-left: 1.5rem;
 }
 
 #score_board {
@@ -42,15 +44,12 @@ p {
     background-size: cover;  
 }
 
-
-
-
 .list_item_number, .list_item_name {
 	color: white;
 	opacity: 0.8;
 	text-transform: uppercase;
 	list-style: none;
-	font-size: 2.5rem;
+	font-size: 2rem;
 }
 
 .list_item_number {
@@ -102,18 +101,19 @@ p {
 }
 
 .arrow {
-	margin-top: 5rem;
+	margin-top: 2rem;
 	margin-bottom: 2rem;
 	opacity: 0.8;
+	/*width: 30%;*/
 }
 
 .address {
-	font-size: 1.25rem;
+	font-size: 1rem;
 	color: black;
 }
 
 .month {
-	font-size: 4rem;
+	font-size: 3rem;
 	line-height: 1;
 	padding-top: 1rem;
 	text-shadow: 5px 5px 10px grey;
@@ -122,7 +122,7 @@ p {
 
 .day {
 	color: #ff1524;
-	font-size: 6rem;
+	font-size: 4rem;
 	line-height: 0.8;
 	text-shadow: 5px 5px 10px grey;
 	margin-bottom: 2rem;
@@ -238,7 +238,7 @@ footer h6 {
 
 	#score_board {
 		background-image: url("board.jpg");
-		min-height: 90vh;
+		/*min-height: 90vh;*/
 		background-position: center;
 	    background-repeat: no-repeat;
 	    background-size: cover;  
