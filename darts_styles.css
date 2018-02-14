@@ -10,11 +10,6 @@ a:hover, .dropdown-item:hover, h6:hover, .button_back:hover, .button_add:hover  
 	text-decoration: none;
 }
 
-div {
-	/*border: 1px solid blue;*/
-	/*height: 400px;*/
-}
-
 p {
 	margin: unset;
 	padding: unset; 
@@ -160,7 +155,6 @@ footer h6 {
 	color: black;
 	border-radius: 25px;
 	cursor: pointer;
-
 }
 
 .button_add {
@@ -172,7 +166,7 @@ footer h6 {
 }
 
 .photo {
-	max-width: 50%;
+	max-width: 35%;
 }
 
 /*beginning of animation */
@@ -218,6 +212,14 @@ footer h6 {
 	}
 /*end of animations */
 
+
+
+/* Mobiles (up to 550) */
+@media (max-width: 550px) { 
+	.photo {
+		max-width: 25%;
+	}
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
